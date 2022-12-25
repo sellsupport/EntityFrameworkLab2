@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "XGddQOVrjvHOwLkYl04PE9GM4wQLQxR+6Buu7s4i6/VAVkuqjKEgKlcULa60M/I+JuKS+yS1q5xk5JAd1gawdA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Xiaomi\\source\\repos\\EntityFrameworkExample\\EntityFramework\\EntityFramework.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Обнаружен цикл. \r\n  EntityFramework -> Model -> EntityFramework (>= 6.4.4).",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
